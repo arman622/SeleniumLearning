@@ -1,0 +1,35 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Test Grid" parallel="tests">
+    <test name="Test Node1">
+        <classes>
+            <class name="grid.Node1_Instance1" />
+        </classes>
+    </test>
+
+    <test name="Test Node2">
+        <classes>
+            <class name="grid.Node1_Instance2" />
+        </classes>
+    </test>
+
+    <test name="Test Node3">
+        <classes>
+            <class name="grid.Node1_Instance3" />
+        </classes>
+    </test>
+
+    <test name="Test Node5">
+        <classes>
+            <class name="grid.Node2_Instance1" />
+        </classes>
+    </test>
+
+    <test name="Test Node4">
+        <classes>
+            <class name="grid.Node2_Instance2" />
+        </classes>
+    </test>
+
+
+</suite>
